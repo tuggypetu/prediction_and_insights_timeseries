@@ -1,8 +1,8 @@
-﻿Vumonic Assessment![ref1]
+DATA PREDICTION AND ANALYSIS - SWIGGY & ZOMATO
 
-By - Siddhanth Biswas 2024-03-10![ref1]
+By - Siddhanth Biswas 2024-03-10
 
-Insights![ref1]
+Insights!
 
 1. Customers with more frequent purchases have a more recent purchase
 
@@ -12,15 +12,15 @@ For a particular customer (measured in seconds):
 - Last purchase diff = last possible time to purchase - time of last purchase
   - Note: last possible time to purchase here is '2023-12-31 23:59:59+0000'
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.002.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.002.png)
 
 Fig. Transaction Frequency histogram
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.003.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.003.png)
 
 Fig. Last purchase diff histogram
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.004.jpeg)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.004.jpeg)
 
 Fig. OLS regression results between transaction frequency and last purchase diff
 
@@ -34,19 +34,19 @@ y = 1235000 + (-1.0131)x
 
 where x is the total frequency and y is the last purchase diff.
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.005.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.005.png)
 
 Fig. The linear regression y=mx+c line to predict last purchase diff from transaction frequency Hence, more frequent purchases from a customer is likely to have a more recent purchase.
 
 2. Age and discount applied for swiggy customers
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.006.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.006.png)
 
 Fig. Count of age groups applying discount on Swiggy orders
 
 From the above bar chart we can see that the majority of Swiggy customers are between the ages of 19 to 34. More than half of these customers avail the use of the discount on Swiggy. So, it can be assumed that the discounts are an important feature for Swiggy.
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.007.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.007.png)
 
 Fig. Percentage within age group of applying discount for Swiggy customers
 
@@ -56,7 +56,7 @@ The discounts on Swiggy are highly preferred for those between the ages of 14 to
 
 3. Average payment by age and gender
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.008.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.008.png)
 
 Fig. Average order payment for age group and gender
 
@@ -71,7 +71,7 @@ Further insights to generate:
 
 Predictive analysis![ref1]
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.009.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.009.png)
 
 Fig. Sales in time-series line graph from 2023-10-01 until 2023-12-31 Table. Sales calculation for months October, November, December 2023
 
@@ -93,7 +93,7 @@ The data given to the ARIMA model was dataframe with 2 columns. The ‘timestamp
 
 The model was then used to forecast for the next 91 days, from 2024-01-01 until 2024-03-31.
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.010.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.010.png)
 
 Fig. ARIMA plot diagnostics
 
@@ -107,7 +107,7 @@ Table. ARIMA Sales prediction for months January, February, March 2024
 |**1**|2024-02|42230812|
 |**2**|2024-03|45296138|
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.011.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.011.png)
 
 Fig. Daily Sales Predicted using ARIMA
 
@@ -125,7 +125,7 @@ Table. XGBoost Sales prediction for months January, February, March 2024
 |**1**|2024-02|43572408|
 |**2**|2024-03|46058740|
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.012.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.012.png)
 
 Fig. Daily Sales Predicted using XGBoost
 
@@ -208,19 +208,19 @@ The user is first asked to enter the name of the city.
 
 If the city is in data, it searches the data for food product and restaurant options in the city, and provides them to the user for choosing.
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.013.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.013.png)
 
 After the User clicks the ‘Generate food item order’ button:
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.014.jpeg)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.014.jpeg)
 
 An image of the food item is generated, and
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.015.png)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.015.png)
 
 A description of the food item is generated, and
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.016.jpeg)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.016.jpeg)
 
 After searching through the data with the city, product\_name, and restaurant. It selects a random transaction, and prints the order details.
 
@@ -230,9 +230,9 @@ Possible improvements to application:
 - Faster loading time of dataframe
 - Locally hosting or using better LLMs for more or better generated tokens
 
-![](Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.017.jpeg)
+![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.017.jpeg)
 
 END![ref1]
 15
 
-[ref1]: Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.001.png
+[ref1]: images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.001.png
