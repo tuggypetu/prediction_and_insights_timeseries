@@ -2,7 +2,7 @@
 
 By - Siddhanth Biswas 2024-03-10
 
-Insights!
+## Insights
 
 1. Customers with more frequent purchases have a more recent purchase
 
@@ -69,7 +69,7 @@ Further insights to generate:
 - Customer segmentation clustering algorithm using K-means or hierarchical clustering
 - Customer churn
 
-Predictive analysis![ref1]
+## Predictive analysis![ref1]
 
 ![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.009.png)
 
@@ -129,7 +129,7 @@ Table. XGBoost Sales prediction for months January, February, March 2024
 
 Fig. Daily Sales Predicted using XGBoost
 
-Biases![ref1]
+## Biases![ref1]
 
 1. There are not enough samples for ‘user\_gender’ as ‘female’. <https://www.similarweb.com/website/swiggy.com/#geography> This link says that swiggy demographics has a 34% female population. Whereas the data has 22% females.
 1. Most customers are within the 19-39 age category.
@@ -139,7 +139,7 @@ Biases![ref1]
 1. There could be identical users as they could make both zomato and swiggy transactions.
 1. The percentage of swiggy and zomato transactions are not representative of market share.
 
-Extrapolate to real market population:![ref1]
+## Extrapolate to real market population:![ref1]
 
 1. Gender extrapolation
 
@@ -191,7 +191,7 @@ Hence, the total sales for the 3 months Oct-Dec 2023 in the actual market will b
 
 134467411\.16 \* 299537037 / 394059 = **INR 102,213,044,016**
 
-Food Item order Generator using LLMs and vector embeddings (additional)![ref1]
+## Food Item order Generator using LLMs and vector embeddings (additional)![ref1]
 
 This application can auto-generate a food order based on your city and certain other preferences.
 
@@ -231,6 +231,60 @@ Possible improvements to application:
 - Locally hosting or using better LLMs for more or better generated tokens
 
 ![](images/Aspose.Words.df5638d8-1f82-4478-b17c-49cd49ff95c0.017.jpeg)
+
+## More Insights
+
+||**month**|**company**|**sales**|**percentage\_diff**|
+| :- | - | - | - | - |
+|**0**|10|swiggy|22244805\.00|0\.000000|
+|**1**|11|swiggy|20939240\.00|-5.869078|
+|**2**|12|swiggy|20898438\.00|-0.194859|
+|**3**|10|zomato|23819385\.37|0\.000000|
+|**4**|11|zomato|23405896\.71|-1.735933|
+|**5**|12|zomato|23186250\.02|-0.938425|
+
+![](images/Aspose.Words.6ee0cd53-80d4-48c9-ba17-ef8197f4bfaf.001.png)
+
+![](images/Aspose.Words.6ee0cd53-80d4-48c9-ba17-ef8197f4bfaf.002.png)
+
+From the charts and data we can see the above insights:
+
+- Zomato has more sales than Swiggy, i.e. 9% greater overall.
+- Swiggy has more unique users than Zomato, i.e., 10% greater overall.
+- The total sales overall is declining for the three months, i.e. Swiggy -6%, Zomato -2.6%.
+- The total unique users overall is declining over the three months, i.e. Swiggy -9.9%, Zomato -4.4% .
+
+Table: Percentage of users in
+
+
+
+|**Percentage of users in**|**Swiggy**|**Zomato**|
+| - | - | - |
+|Nov 2023 who also made purchase in Oct 2023|58%|65%|
+|Dec 2023 who also made purchase in Nov 2023|59%|65%|
+|Dec 2023 who also made purchase in Nov 2023 and Oct 2023|44%|50%|
+|Dec 2023 who also made purchase in Nov 2023 or Oct 2023|70%|77%|
+
+As we can see from the above data:
+
+- **Zomato has a greater number of repeat or returning users over the months**
+
+Hence , from the above analysis we can assume that Zomato has greater sales (even with a lower number of unique customers) due to the greater number of repeat or returning user purchases.
+
+**31st December 2023**
+
+![](images/Aspose.Words.6ee0cd53-80d4-48c9-ba17-ef8197f4bfaf.003.png)
+
+- Sales skyrocketed on new years eve especially in the last 5 hours of the day.
+
+![](images/Aspose.Words.6ee0cd53-80d4-48c9-ba17-ef8197f4bfaf.004.png)
+
+Diagnosis:
+
+- Zomato captures the majority of the market orders (**60%**) during the peak timings of 18:00 to 22:00 on average.
+- On 31st December 2023, Zomato had 71% of total orders during the peak timings, with 125% increase in the number of average orders.
+- This is possibly due to some promotions applied by Zomato.
+
 
 END![ref1]
 15
